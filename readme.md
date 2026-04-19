@@ -16,9 +16,15 @@ news-summarizer/
 ├── train.py                # Model training pipeline
 ├── requirements.txt        # Dependencies
 ├── README.md               # Project documentation
-└── .gitignore              # Ignore unnecessary files
+├── .gitignore              # Ignore unnecessary files
+├──model.safetensors        # model file 
 ```
+Trained Model
 
+The trained model is too large to upload on GitHub.
+
+👉 Download it from Google Drive:
+https://drive.google.com/file/d/1LwT8_3SdVrnyjYyOgqGaMmEpB6xMFL4r/view?usp=drive_link
 ---
 
 ## Model Details
@@ -59,28 +65,6 @@ Training includes:
 * Model learning (BART)
 * Loss optimization
 * Checkpoint saving
-
----
-
-## Inference (Generate Summary)
-
-```bash
-python inference.py
-```
-
-Example:
-
-Input:
-
-```
-Long news article...
-```
-
-Output:
-
-```
-Short summarized text...
-```
 
 ---
 
